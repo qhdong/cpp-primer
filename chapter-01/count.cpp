@@ -11,8 +11,8 @@ int main() {
             } else {
                 std::cout << currVal << " occurs " << cnt
                     << " times" << std::endl;
-                cnt = 1;
                 currVal = val;
+                cnt = 1;
             }
         }
         std::cout << currVal << " occurs " << cnt

@@ -1,0 +1,2 @@
+g++ -g -Wall -std=c++11 -I..  -c acc.cpp -o acc.o
+../GNU_makefile_template:42: recipe for target 'acc.o' failed

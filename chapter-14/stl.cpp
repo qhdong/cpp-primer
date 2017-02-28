@@ -8,12 +8,11 @@
 using namespace std;
 
 int main() {
-    vector<int> vi = {1, 2, 3, 4, 5, 6, 7, 8};
-    // cout << count_if(vi.begin(), vi.end(), greater<int>(5)) << endl;
-    sort(vi.begin(), vi.end(), greater<int>());
-    ostream_iterator<int> out(cout, " ");
-    copy(vi.begin(), vi.end(), out);
-    cout << endl;
+    vector<int> vi = {9, 5, 3, 4, 5, 6, 7, 8};
+    auto it1 = vi.begin();
+    auto it2 = vi.begin() + 1;
+    auto it3 = vi.begin() + 2;
+    cout << min({*it1, *it2, *it3}) << endl;
 
     return 0;
 }
